@@ -13,7 +13,7 @@ file(GLOB CRC_SOURCE src/*.cpp)
 file(GLOB CRC_HEADER src/*.h)
 
 add_library(crc SHARED ${CRC_SOURCE} ${CRC_HEADER} src/exports.def)
-#add_executable(crc ${CRC_SOURCE} ${CRC_HEADER})
+add_executable(crc_test ${CRC_SOURCE} ${CRC_HEADER})
 
 #set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 #set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

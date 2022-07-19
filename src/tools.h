@@ -1,4 +1,5 @@
 #include <stdint.h>
+#include "vecotr_capl_type.h"
 
 /*** CRC_Table8 Definition ***/
 uint8_t const CRC8_Table[256] =
@@ -50,15 +51,14 @@ uint8_t CalculateCRC(uint8_t data[], int id)
     return (dataCrc ^ mask);
 }
 
-uint8_t CalculateCRC_J1850(uint8_t *data,int len)
+uint8_t CalculateCRC_J1850(uint8_t *data, int len)
 {
     uint8_t idx;
     uint8_t crc = 0xff;
-    for(idx = 0;idx < len;idx++)
+    for (idx = 0; idx < len; idx++)
     {
         crc = CRC8_J1850_TABLE[crc ^ data[idx]];
     }
     crc ^= 0xff;
     return crc;
 }
-
