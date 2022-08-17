@@ -13,3 +13,5 @@ GCC on Linux : https://code.visualstudio.com/docs/cpp/config-linux
 Developing in WSL : https://code.visualstudio.com/docs/remote/wsl
 
 CMake Tools : https://code.visualstudio.com/docs/cpp/cmake-linux
+
+msys2镜像站  : https://mirror.tuna.tsinghua.edu.cn/help/msys2/
