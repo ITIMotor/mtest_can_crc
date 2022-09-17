@@ -1,3 +1,6 @@
+#ifndef TOOLS_H
+#define TOOLS_H
+
 #include <stdint.h>
 #include "vecotr_capl_type.h"
 
@@ -97,3 +100,5 @@ uint8_t CalculateCRC_J1850(uint8_t *data, int len)
     crc ^= 0xff;
     return crc;
 }
+
+#endif //TOOLS_H
