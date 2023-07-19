@@ -17,9 +17,15 @@ return: 1表示成功，0表示失败
 
 **一般编写流程为：根据源CAN消息数据，获取Counter，计算CRC，更改源数据消息插入计算的CRC，返回新的Counter，和计算出的CRC。**
 
+### 使用VisualStudio编译
+
+官方下载 : https://visualstudio.microsoft.com/zh-hans/vs/community/  
+安装使用 : https://learn.microsoft.com/zh-cn/cpp/build/cmake-projects-in-visual-studio?view=msvc-170  
+
+
 ### 使用vscode编译  
 
-官方下载：https://code.visualstudio.com/  
+官方下载 : https://code.visualstudio.com/  
 GCC on Windows : https://code.visualstudio.com/docs/cpp/config-mingw  
 GCC on Linux : https://code.visualstudio.com/docs/cpp/config-linux  
 Developing in WSL : https://code.visualstudio.com/docs/remote/wsl  
