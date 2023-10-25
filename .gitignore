@@ -3,3 +3,9 @@
 /.vs
 /cmake-build-*
 /.idea
+
+/project/CodeBlocks/bin
+/project/CodeBlocks/obj
+/project/VS/*
+!/project/VS/*.sln
+!/project/VS/*.vcxproj

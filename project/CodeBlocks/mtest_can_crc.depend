@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1698208030 source:c:\workspace\code\mtestcancrc\mtest_can_crc\src\mtest_can_crc.cpp
+	"mtest_can_crc.h"
+	"tools.h"
+	"stdio.h"
+
+1697602011 c:\workspace\code\mtestcancrc\mtest_can_crc\src\mtest_can_crc.h
+	<stdint.h>
+
+1697616827 c:\workspace\code\mtestcancrc\mtest_can_crc\src\tools.h
+	"vecotr_capl_type.h"
+	<cstdint>
+	<cstdio>
+
+1658212707 c:\workspace\code\mtestcancrc\mtest_can_crc\src\vecotr_capl_type.h
+	"stdint.h"
+
